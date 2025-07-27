@@ -59,7 +59,6 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Vellore Institute of Technology, Chennai",
-      logo: require("./assets/images/vitLogo.png"),
       subHeader: "B.Tech in Computer Science and Engineering",
       duration: "2023 - 2027",
       desc: "Rank 1 in CSE Core (1st Year), Rank 2 (2nd Year).",
@@ -70,7 +69,6 @@ const educationInfo = {
     },
     {
       schoolName: "The Study, Puducherry",
-      logo: require("./assets/images/thestudyLogo.png"),
       subHeader: "10th & 12th Grades",
       duration: "2020 - 2023",
       desc: "Scored 95% in 10th, 94.6% in 12th",
@@ -95,14 +93,12 @@ const workExperiences = {
     {
       role: "Student Research Intern",
       company: "VIT Chennai",
-      companylogo: require("./assets/images/vitLogo.png"),
       date: "2025",
       desc: "Worked on integrating VLMs and LLMs into video-proctoring pipeline and developed GraphRAG from knowledge graphs."
     },
     {
       role: "Hackathon Finalist",
       company: "Urban Vision Mobility Hackathon",
-      companylogo: require("./assets/images/hackathonLogo.png"),
       date: "2025",
       desc: "Proposed smart AI solutions for urban mobility challenges."
     }
@@ -119,7 +115,6 @@ const bigProjects = {
   subtitle: "Some impactful work I've built",
   projects: [
     {
-      image: require("./assets/images/solaceLogo.png"),
       projectName: "SOLACE",
       projectDesc: "A holistic mental health site with chatbot, therapist booking, and document upload",
       footerLink: [
@@ -130,7 +125,6 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/deepnetcraftLogo.png"),
       projectName: "DeepNetCraft",
       projectDesc: "AutoML web tool to drag & drop, train and test deep learning models",
       footerLink: [
@@ -151,15 +145,11 @@ const achievementSection = {
     {
       title: "Machine Learning - IIT Bombay",
       subtitle: "Certified in Machine Learning fundamentals and applications",
-      image: require("./assets/images/mlLogo.png"),
-      imageAlt: "ML Logo",
       footerLink: []
     },
     {
       title: "GenAI - IBM",
       subtitle: "Completed certification in Generative AI by IBM",
-      image: require("./assets/images/genaiLogo.png"),
-      imageAlt: "GenAI Logo",
       footerLink: []
     }
   ],
